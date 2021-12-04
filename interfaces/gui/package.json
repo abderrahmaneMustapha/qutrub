@@ -1,0 +1,8 @@
+{
+   "name": "gui",
+   "main": "index.js",
+   "scripts": {
+      "dev": "nw.exe src/",
+      "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+   }
+ }
